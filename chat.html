@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat — Sherrina Hansen</title>
+  <meta name="description" content="Reach out to Sherrina Hansen. Questions, kind words, or just a hello — real messages from real people make her day." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="site-nav">
+    <div class="site-nav__inner">
+      <a href="index.html" class="site-nav__logo"><div class="site-nav__logo-circle"><img src="images/sh-logo.png" alt="SH Studios" class="site-nav__logo-img"></div><div class="site-nav__logo-text"><span class="site-nav__logo-name">Sherrina Hansen</span><span class="site-nav__logo-studio">SH Studios</span></div></a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="toggleNav()">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="site-nav__links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="my-story.html">My Story</a></li>
+        <li><a href="collection.html">The Collection</a></li>
+        <li><a href="free-gifts.html">Free Gifts</a></li>
+        <li><a href="chat.html" class="active">Chat</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="container--narrow text-center">
+      <p class="page-header__subtitle">Real messages from real people make my day.</p>
+      <h1>Chat</h1>
+      <div class="divider"><span class="divider-dot"></span></div>
+      <p style="max-width: 500px; margin: 0 auto; font-size: 0.95rem; color: #666;">I actually read these. All of them.</p>
+    </div>
+  </div>
+
+  <!-- CHAT BODY -->
+  <main class="chat-body">
+    <div class="container">
+      <div class="chat-grid">
+
+        <!-- INFO SIDE -->
+        <div class="chat-info">
+          <span class="hero__eyebrow" style="color: #009E97;">Let's talk</span>
+          <h2 style="margin-top: 0.5rem;">I'd love to hear from you.</h2>
+          <p>
+            Whether you want to talk about one of my books, ask about a coloring page, share something you made with one of my products, or just say hi because you felt like it. All of that is welcome here.
+          </p>
+          <p>
+            I am one person, not a team. So I may not respond same-day, but I will respond. That is a promise.
+          </p>
+
+          <div class="chat-ways">
+            <div class="chat-way">
+              <div class="chat-way__icon chat-way__icon--teal">📬</div>
+              <div>
+                <h4>Email me directly</h4>
+                <p><a href="mailto:shstudios@sherrinahansen.com" style="color: #009E97;">shstudios@sherrinahansen.com</a></p>
+              </div>
+            </div>
+            <div class="chat-way">
+              <div class="chat-way__icon chat-way__icon--amber">📸</div>
+              <div>
+                <h4>Find me on Instagram</h4>
+                <p><a href="https://www.instagram.com/sherrinahansen/" target="_blank" rel="noopener" style="color: #009E97;">@sherrinahansen</a> &mdash; I post there too</p>
+              </div>
+            </div>
+            <div class="chat-way">
+              <div class="chat-way__icon chat-way__icon--red">📌</div>
+              <div>
+                <h4>Pinterest</h4>
+                <p><a href="https://www.pinterest.com/sh_studios" target="_blank" rel="noopener" style="color: #009E97;">SH Studios on Pinterest</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FORM SIDE -->
+        <div>
+          <h3 style="color: #009E97; margin-bottom: 0.4rem; font-family:'Cormorant Garamond',serif; font-size:1.6rem;">Send a message</h3>
+          <p style="font-size: 0.88rem; color: #999; margin-bottom: 1.8rem;">Fill this out and I'll get back to you.</p>
+
+          <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="f7e96f0a-61ae-4d8c-9715-27fd1a6f3675" />
+            <input type="hidden" name="subject" value="New message from SH Studios website" />
+            <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="What should I call you?" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="So I can write you back" required />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">What's this about?</label>
+              <select id="subject" name="subject">
+                <option value="">Pick one (or just say hi)</option>
+                <option value="books">A book question</option>
+                <option value="products">An Etsy product</option>
+                <option value="collab">Collaboration idea</option>
+                <option value="reader">Reader note</option>
+                <option value="other">Something else</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" placeholder="Say what's on your mind. I don't bite." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--red" style="width: 100%;">Send It</button>
+            <p class="form-note">I'll respond within a few days. Pinky promise.</p>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- QUOTE BLOCK -->
+  <section class="quote-block quote-block--teal">
+    <div class="quote-block__inner">
+      <blockquote>"Every message matters. Even the short ones. Especially the short ones."</blockquote>
+      <p class="quote-block__attr">Sherrina Hansen</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="site-nav__logo-name">Sherrina Hansen</span>
+          <span class="site-nav__logo-studio">SH Studios</span>
+          <p>Author. Artist. Dreamer. I create from the middle of a real life. And I wouldn't have it any other way.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/sherrinahansen/" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.pinterest.com/sh_studios" target="_blank" rel="noopener">Pinterest</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="my-story.html">My Story</a></li>
+            <li><a href="collection.html">The Collection</a></li>
+            <li><a href="free-gifts.html">Free Gifts</a></li>
+            <li><a href="chat.html">Chat</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Find My Work</h4>
+          <ul>
+            <li><a href="https://www.amazon.com/stores/author/B0DHF5XF2K/allbooks" target="_blank" rel="noopener">Amazon Books</a></li>
+            <li><a href="https://www.etsy.com/shop/3RealmsbySHStudios" target="_blank" rel="noopener">Etsy Shop</a></li>
+            <li><a href="chat.html">Send a Message</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Sherrina Hansen &middot; SH Studios. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      document.getElementById('nav-links').classList.toggle('is-open');
+    }
+  </script>
+
+</body>
+</html>
