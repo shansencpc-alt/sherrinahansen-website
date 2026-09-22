@@ -1385,3 +1385,18 @@ section {
 .art-card__sold{color:#a33d49;font-weight:700}.art-card__price{font-weight:700;color:#183e3d}
 .art-empty{padding:3rem 2rem;background:#f5f0e8;text-align:center}.art-empty a{color:#087a74;text-decoration:underline}
 .art-empty[hidden]{display:none}
+
+/* Home draft: lead with both the artist and the author */
+.home-reframed .hero{min-height:0;clip-path:none;padding:10rem 0 5rem;text-align:left;background:linear-gradient(120deg,#073c3b,#087b75 68%,#149e98)}
+.home-reframed .hero__inner{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(280px,.85fr);gap:4rem;align-items:center}
+.home-reframed .hero__content{padding:0}
+.home-reframed .hero__tagline{font-size:clamp(3.2rem,5.7vw,5.8rem);max-width:720px;line-height:1.02;color:#f4b654}
+.home-reframed .hero__subline{font-size:1.12rem;line-height:1.65;letter-spacing:0;text-transform:none;max-width:35rem}
+.home-reframed .hero__actions{display:flex;gap:1rem;flex-wrap:wrap}
+.home-reframed .hero__actions .btn{font-size:.85rem}
+.home-reframed .hero__visual{min-width:0;border:12px solid rgba(250,246,240,.25);box-shadow:18px 20px 0 rgba(0,36,34,.35)}
+.home-reframed .hero__visual img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:55% center}
+.home-reframed .art-home{padding:5rem 0}
+.home-reframed .art-home__mark{font-size:clamp(5rem,12vw,9rem)}
+@media(max-width:800px){.home-reframed .hero{padding:8rem 0 4rem}.home-reframed .hero__inner{grid-template-columns:1fr;gap:2.5rem}.home-reframed .hero__visual img{aspect-ratio:16/8}.home-reframed .hero__tagline{font-size:clamp(3rem,9vw,5rem)}}
+@media(max-width:520px){.home-reframed .hero__actions{flex-direction:column;align-items:stretch}.home-reframed .hero__actions .btn{text-align:center}.home-reframed .hero__visual img{aspect-ratio:4/3}}
