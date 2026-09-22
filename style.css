@@ -1351,3 +1351,37 @@ section {
     margin: 0 auto;
   }
 }
+
+/* Original art */
+.art-kicker{font-size:.82rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#087a74;margin-bottom:.8rem}
+.art-intro{padding:10rem 0 5rem;background:#f5f0e8}
+.art-intro__inner{display:grid;grid-template-columns:1fr minmax(280px,.85fr);align-items:center;gap:clamp(2rem,6vw,6rem)}
+.art-intro h1{font-size:clamp(3rem,6vw,5.6rem);line-height:1.04;color:#183e3d;margin-bottom:1.5rem}
+.art-intro p:not(.art-kicker){max-width:34rem;font-size:1.1rem}
+.art-intro img{width:100%;height:min(65vh,620px);object-fit:cover;object-position:center;box-shadow:22px 24px 0 #e5d8c9}
+.art-gallery{background:#fff;padding:5rem 0 6rem}
+.art-gallery__heading{display:flex;justify-content:space-between;align-items:end;gap:2rem;margin-bottom:2.5rem}
+.art-gallery__heading h2{color:#183e3d;font-size:clamp(2.6rem,5vw,4rem)}
+.art-gallery__heading>p{max-width:27rem;color:#555}
+.art-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2.5rem 1.5rem}
+.art-card{min-width:0}
+.art-card img{width:100%;height:340px;object-fit:cover;background:#f5f0e8}
+.art-card>div{padding:1rem .15rem}
+.art-card h3{color:#183e3d;font-size:1.8rem}
+.art-card p{color:#666;font-size:.95rem;margin:.25rem 0 .55rem}
+.art-card a,.art-process__alternative a{color:#087a74;text-decoration:underline;text-underline-offset:4px;font-weight:600}
+.art-card a:hover,.art-process__alternative a:hover{color:#b42031}
+.art-process{background:#e8f2ef;text-align:center;padding:5rem 0}
+.art-process h2{color:#183e3d;font-size:clamp(2.5rem,5vw,4rem);margin-bottom:1.25rem}
+.art-process__alternative{margin-top:1.25rem}
+.art-home{background:#f5f0e8}
+.art-home__inner{display:grid;grid-template-columns:minmax(240px,.85fr) 1fr;align-items:center;gap:clamp(2rem,6vw,6rem)}
+.art-home img{height:420px;width:100%;object-fit:cover}
+.art-home h2{color:#183e3d;font-size:clamp(2.6rem,5vw,4rem);margin-bottom:1rem}
+@media(max-width:800px){.art-intro__inner,.art-home__inner{grid-template-columns:1fr}.art-intro{padding-top:8rem}.art-intro img{height:420px;box-shadow:12px 12px 0 #e5d8c9}.art-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.art-gallery__heading{display:block}.art-home img{height:350px}}
+@media(max-width:560px){.art-grid{grid-template-columns:1fr}.art-card img{height:auto;max-height:480px;object-fit:contain}.art-intro h1{font-size:3.2rem}}
+
+.art-intro__mark,.art-home__mark{display:grid;place-items:center;min-height:360px;background:#006e69;color:#fff;font:italic 9rem 'Cormorant Garamond',serif;letter-spacing:-.12em;border:14px solid #e5d8c9}
+.art-card__sold{color:#a33d49;font-weight:700}.art-card__price{font-weight:700;color:#183e3d}
+.art-empty{padding:3rem 2rem;background:#f5f0e8;text-align:center}.art-empty a{color:#087a74;text-decoration:underline}
+.art-empty[hidden]{display:none}
