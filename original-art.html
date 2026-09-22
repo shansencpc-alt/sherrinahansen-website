@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Original Art | Sherrina Hansen</title>
+  <meta name="description" content="Explore original paintings by Sherrina Hansen of SH Studios. Expressive, one of a kind art that finds beauty in imperfection.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="site-nav" aria-label="Main navigation"><div class="site-nav__inner">
+    <a href="index.html" class="site-nav__logo"><div class="site-nav__logo-circle"><img src="images/sh-logo.png" alt="" class="site-nav__logo-img"></div><div class="site-nav__logo-text"><span class="site-nav__logo-name">Sherrina Hansen</span><span class="site-nav__logo-studio">SH Studios</span></div></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links" onclick="toggleNav(this)"><span></span><span></span><span></span></button>
+    <ul class="site-nav__links" id="nav-links"><li><a href="index.html">Home</a></li><li><a href="my-story.html">My Story</a></li><li><a href="collection.html">The Collection</a></li><li><a href="original-art.html" class="active" aria-current="page">Original Art</a></li><li><a href="free-gifts.html">Free Gifts</a></li><li><a href="chat.html">Chat</a></li></ul>
+  </div></nav>
+  <main>
+    <header class="art-intro"><div class="container art-intro__inner"><div><p class="art-kicker">SH Studios · Original paintings</p><h1>Beautifully imperfect, made by hand.</h1><p>I paint to leave room for discovery. A line can wobble, a brushstroke can show, and color can shift across the canvas. Those details are part of what makes each piece mine.</p><a href="#gallery" class="btn btn--red">Explore the paintings</a></div><div class="art-intro__mark" aria-hidden="true">sh</div></div></header>
+    <section class="art-gallery" id="gallery" aria-labelledby="gallery-title"><div class="container"><div class="art-gallery__heading"><div><p class="art-kicker">The gallery</p><h2 id="gallery-title">Original works</h2></div><p>Each painting is one of a kind. Details and availability appear with each piece.</p></div>
+      <div class="art-grid" id="art-grid"></div>
+      <p class="art-empty" id="art-empty">New paintings are being photographed and prepared. Please check back soon, or <a href="chat.html">ask about available originals</a>.</p>
+    </div></section>
+    <section class="art-process"><div class="container--narrow"><p class="art-kicker">A note from Sherrina</p><h2>There is beauty in the marks we leave.</h2><p>My work is intentionally imperfect. I want you to see the movement of a real hand and the decisions made along the way. If a painting speaks to you, tell me which one. I can confirm whether it is still available and share its size, price, and shipping or local pickup options.</p><a href="mailto:shstudios@sherrinahansen.com?subject=Original%20art%20inquiry" class="btn btn--red">Ask about a painting</a><p class="art-process__alternative">Prefer a form? <a href="chat.html">Send me a message here.</a></p></div></section>
+  </main>
+  <footer class="site-footer"><div class="container"><div class="footer-bottom"><p>&copy; 2026 Sherrina Hansen · SH Studios. All rights reserved.</p><p><a href="index.html">Home</a> · <a href="collection.html">Books &amp; more</a> · <a href="chat.html">Contact</a></p></div></div></footer>
+  <script src="art-inventory.js"></script>
+  <script src="art-gallery.js"></script>
+  <script>function toggleNav(button){const menu=document.getElementById('nav-links');const open=menu.classList.toggle('is-open');button.setAttribute('aria-expanded',String(open));}</script>
+</body>
+</html>
