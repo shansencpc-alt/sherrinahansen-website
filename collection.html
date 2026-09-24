@@ -6,23 +6,30 @@
   <title>The Collection — Sherrina Hansen</title>
   <meta name="description" content="Books, journals, coloring books, and products from Sherrina Hansen and SH Studios. Everything made with beauty in mind." />
   <link rel="stylesheet" href="style.css" />
-</head>
+<link rel="stylesheet" href="art.css?v=3"></head>
 <body>
 
   <!-- NAVIGATION -->
   <nav class="site-nav">
     <div class="site-nav__inner">
-      <a href="index.html" class="site-nav__logo"><div class="site-nav__logo-circle"><img src="images/sh-logo.png" alt="SH Studios" class="site-nav__logo-img"></div><div class="site-nav__logo-text"><span class="site-nav__logo-name">Sherrina Hansen</span><span class="site-nav__logo-studio">SH Studios</span></div></a>
+
+      <a href="index.html" class="site-nav__logo">
+        <div class="site-nav__logo-circle">
+          <img src="images/sh-logo.png" alt="SH Studios" class="site-nav__logo-img">
+        </div>
+        <div class="site-nav__logo-text">
+          <span class="site-nav__logo-name">Sherrina Hansen</span>
+          <span class="site-nav__logo-studio">SH Studios</span>
+        </div>
+      </a>
+
       <button class="nav-toggle" aria-label="Toggle menu" onclick="toggleNav()">
-        <span></span><span></span><span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
-      <ul class="site-nav__links" id="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="my-story.html">My Story</a></li>
-        <li><a href="collection.html" class="active">The Collection</a></li>
-        <li><a href="free-gifts.html">Free Gifts</a></li>
-        <li><a href="chat.html">Chat</a></li>
-      </ul>
+
+      <ul class="site-nav__links" id="nav-links"><li><a href="index.html">Home</a></li><li><a href="art.html">Art</a></li><li><a href="collection.html">Books &amp; More</a></li><li><a href="my-story.html">My Story</a></li><li><a href="chat.html">Contact</a></li></ul>
     </div>
   </nav>
 
@@ -45,7 +52,7 @@
         <h2>Fiction</h2>
         <p style="max-width: 560px; font-size: 0.95rem; color: #555;">Stories for the ones who still believe in wonder, and the worlds that live just past the edge of what we can see.</p>
       </div>
-      <div class="books-grid">
+      <div class="books-grid"><div class="book-card"><div class="book-card__cover"><img src="images/solace-cover.jpg" alt="Solace by Sherrina Hansen"></div><div class="book-card__genre">Fiction</div><h3 class="book-card__title">Solace</h3><p class="book-card__desc">A devastating diagnosis. A desperate daughter. An unexpected calling. Mirina believes Solace can save her father. She just has to get him there in time.</p><a href="https://www.amazon.com/dp/B0H3L4T4KN" target="_blank" rel="noopener" class="btn btn--red">Buy Solace on Amazon</a></div>
 
         <div class="book-card">
           <div class="book-card__cover">
@@ -404,7 +411,7 @@
         <div class="footer-brand">
           <span class="site-nav__logo-name">Sherrina Hansen</span>
           <span class="site-nav__logo-studio">SH Studios</span>
-          <p>Author. Artist. Dreamer. I create from the middle of a real life. And I wouldn't have it any other way.</p>
+          <p>Author. Artist. Dreamer. I create from the middle of a messy life. And I wouldn't have it any other way.</p>
           <div class="footer-social">
             <a href="https://www.instagram.com/sherrinahansen/" target="_blank" rel="noopener">Instagram</a>
             <a href="https://www.pinterest.com/sh_studios" target="_blank" rel="noopener">Pinterest</a>
@@ -414,8 +421,9 @@
           <h4>Explore</h4>
           <ul>
             <li><a href="index.html">Home</a></li>
+            <li><a href="art.html">Art</a></li>
             <li><a href="my-story.html">My Story</a></li>
-            <li><a href="collection.html">The Collection</a></li>
+            <li><a href="collection.html">Books &amp; More</a></li>
             <li><a href="free-gifts.html">Free Gifts</a></li>
             <li><a href="chat.html">Chat</a></li>
           </ul>
@@ -441,5 +449,7 @@
     }
   </script>
 
-</body>
+<script src="art.js?v=3"></script></body>
 </html>
+
+

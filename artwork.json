@@ -1,0 +1,178 @@
+[
+  {
+    "title": "Still, I Rise",
+    "collection": "paintings",
+    "medium": "Original painting \u00b7 11 \u00d7 14 in.",
+    "image": "images/art/paintings-still-i-rise.webp",
+    "width": 1152,
+    "height": 1536
+  },
+  {
+    "title": "Orange Flowers",
+    "collection": "paintings",
+    "medium": "Original painting",
+    "image": "images/art/paintings-orange-flowers.webp",
+    "width": 1800,
+    "height": 1392
+  },
+  {
+    "title": "Heart",
+    "collection": "paintings",
+    "medium": "Original painting \u00b7 12 \u00d7 16 in.",
+    "image": "images/art/paintings-heart.webp",
+    "width": 1350,
+    "height": 1800
+  },
+  {
+    "title": "Green Abstract",
+    "collection": "paintings",
+    "medium": "Original painting",
+    "image": "images/art/paintings-green-abstract.webp",
+    "width": 1152,
+    "height": 1536
+  },
+  {
+    "title": "Warm Gradient",
+    "collection": "paintings",
+    "medium": "Original painting",
+    "image": "images/art/paintings-warm-gradient.webp",
+    "width": 1152,
+    "height": 1536
+  },
+  {
+    "title": "Sunflowers",
+    "collection": "paintings",
+    "medium": "Original painting",
+    "image": "images/art/paintings-sunflowers.webp",
+    "width": 1245,
+    "height": 1800
+  },
+  {
+    "title": "Wave",
+    "collection": "paintings",
+    "medium": "Original painting",
+    "image": "images/art/paintings-wave.webp",
+    "width": 1800,
+    "height": 1321
+  },
+  {
+    "title": "Seashell",
+    "collection": "paintings",
+    "medium": "Original textured work",
+    "image": "images/art/paintings-seashell.webp",
+    "width": 1800,
+    "height": 1330
+  },
+  {
+    "title": "Mer",
+    "collection": "just-a-pen",
+    "medium": "Ballpoint pen drawing",
+    "image": "images/art/just-a-pen-mer.webp",
+    "width": 1418,
+    "height": 1800
+  },
+  {
+    "title": "Goldie",
+    "collection": "just-a-pen",
+    "medium": "Ballpoint pen drawing",
+    "image": "images/art/just-a-pen-goldie.webp",
+    "width": 1800,
+    "height": 1202
+  },
+  {
+    "title": "Phoenix Feathers",
+    "collection": "just-a-pen",
+    "medium": "Ballpoint pen drawing",
+    "image": "images/art/just-a-pen-phoenix-feathers.webp",
+    "width": 1176,
+    "height": 1800
+  },
+  {
+    "title": "Pink Ladies",
+    "collection": "just-a-pen",
+    "medium": "Ballpoint pen drawing",
+    "image": "images/art/just-a-pen-pink-ladies.webp",
+    "width": 1800,
+    "height": 1195
+  },
+  {
+    "title": "Pop of Purple",
+    "collection": "just-a-pen",
+    "medium": "Ballpoint pen drawing",
+    "image": "images/art/just-a-pen-pop-of-purple.webp",
+    "width": 1800,
+    "height": 1348
+  },
+  {
+    "title": "Raindrops",
+    "collection": "just-a-pen",
+    "medium": "Ballpoint pen drawing",
+    "image": "images/art/just-a-pen-raindrops.webp",
+    "width": 1011,
+    "height": 1800
+  },
+  {
+    "title": "Rosie",
+    "collection": "just-a-pen",
+    "medium": "Ballpoint pen drawing",
+    "image": "images/art/just-a-pen-rosie.webp",
+    "width": 1800,
+    "height": 1288
+  },
+  {
+    "title": "Sprinkle",
+    "collection": "just-a-pen",
+    "medium": "Ballpoint pen drawing",
+    "image": "images/art/just-a-pen-sprinkle.webp",
+    "width": 1162,
+    "height": 1800
+  },
+  {
+    "title": "Washed up",
+    "collection": "just-a-pen",
+    "medium": "Ballpoint pen drawing",
+    "image": "images/art/just-a-pen-washed-up.webp",
+    "width": 1800,
+    "height": 1186
+  },
+  {
+    "title": "2 of Hearts",
+    "collection": "just-a-pen",
+    "medium": "Ballpoint pen drawing",
+    "image": "images/art/just-a-pen-2-of-hearts.webp",
+    "width": 1800,
+    "height": 1053
+  },
+  {
+    "title": "Blue Swirl",
+    "collection": "just-a-pen",
+    "medium": "Ballpoint pen drawing",
+    "image": "images/art/just-a-pen-blue-swirl.webp",
+    "width": 1800,
+    "height": 1074
+  },
+  {
+    "title": "cLOVEr",
+    "collection": "just-a-pen",
+    "medium": "Ballpoint pen drawing",
+    "image": "images/art/just-a-pen-clover.webp",
+    "width": 1440,
+    "height": 1800
+  },
+  {
+    "title": "Flutterby",
+    "collection": "just-a-pen",
+    "medium": "Ballpoint pen drawing",
+    "image": "images/art/just-a-pen-flutterby.webp",
+    "width": 1800,
+    "height": 1429
+  },
+  {
+    "title": "Green Wave",
+    "collection": "just-a-pen",
+    "medium": "Ballpoint pen drawing",
+    "image": "images/art/just-a-pen-green-wave.webp",
+    "width": 1800,
+    "height": 1021
+  }
+]
