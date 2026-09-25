@@ -3,9 +3,9 @@
     "title": "Still, I Rise",
     "collection": "paintings",
     "medium": "Original painting \u00b7 11 \u00d7 14 in.",
-    "image": "images/art/paintings-still-i-rise.webp",
-    "width": 1152,
-    "height": 1536
+    "image": "images/art/paintings-still-i-rise-cropped.svg",
+    "width": 409,
+    "height": 527
   },
   {
     "title": "Orange Flowers",
@@ -19,40 +19,40 @@
     "title": "Heart",
     "collection": "paintings",
     "medium": "Original painting \u00b7 12 \u00d7 16 in.",
-    "image": "images/art/paintings-heart.webp",
-    "width": 1350,
+    "image": "images/art/paintings-heart-cropped.svg",
+    "width": 1342,
     "height": 1800
   },
   {
     "title": "Green Abstract",
     "collection": "paintings",
     "medium": "Original painting",
-    "image": "images/art/paintings-green-abstract.webp",
-    "width": 1152,
-    "height": 1536
+    "image": "images/art/paintings-green-abstract-cropped.svg",
+    "width": 686,
+    "height": 902
   },
   {
     "title": "Warm Gradient",
     "collection": "paintings",
     "medium": "Original painting",
-    "image": "images/art/paintings-warm-gradient.webp",
-    "width": 1152,
-    "height": 1536
+    "image": "images/art/paintings-warm-gradient-cropped.svg",
+    "width": 663,
+    "height": 883
   },
   {
     "title": "Sunflowers",
     "collection": "paintings",
     "medium": "Original painting",
-    "image": "images/art/paintings-sunflowers.webp",
-    "width": 1245,
-    "height": 1800
+    "image": "images/art/paintings-sunflowers-cropped.svg",
+    "width": 1234,
+    "height": 1790
   },
   {
     "title": "Wave",
     "collection": "paintings",
     "medium": "Original painting",
-    "image": "images/art/paintings-wave.webp",
-    "width": 1800,
+    "image": "images/art/paintings-wave-cropped.svg",
+    "width": 1790,
     "height": 1321
   },
   {
