@@ -29,7 +29,7 @@
         <span></span>
       </button>
 
-      <ul class="site-nav__links" id="nav-links"><li><a href="index.html">Home</a></li><li><a href="art.html">Art</a></li><li><a href="books.html">Books</a></li><li><a href="my-story.html">My Story</a></li><li><a href="chat.html">Contact</a></li></ul>
+      <ul class="site-nav__links" id="nav-links"><li><a href="index.html">Home</a></li><li><a href="art.html">Art</a></li><li><a href="books.html">Books</a></li><li><a href="my-story.html">My Story</a></li><li><a href="https://sherrinahansen.substack.com" target="_blank" rel="noopener">Subscribe</a></li><li><a href="chat.html">Contact</a></li></ul>
     </div>
   </nav>
 
@@ -89,7 +89,7 @@
           <h3 style="color: #009E97; margin-bottom: 0.4rem; font-family:'Cormorant Garamond',serif; font-size:1.6rem;">Send a message</h3>
           <p style="font-size: 0.88rem; color: #999; margin-bottom: 1.8rem;">Fill this out and I'll get back to you.</p>
 
-          <form action="https://api.web3forms.com/submit" method="POST">
+          <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
 
             <input type="hidden" name="access_key" value="f7e96f0a-61ae-4d8c-9715-27fd1a6f3675" />
             <input type="hidden" name="subject" value="New message from SH Studios website" />
@@ -107,7 +107,7 @@
 
             <div class="form-group">
               <label for="subject">What's this about?</label>
-              <select id="subject" name="subject">
+              <select id="subject" name="topic">
                 <option value="">Pick one (or just say hi)</option>
                 <option value="books">A book question</option>
                 <option value="products">An Etsy product</option>
@@ -120,6 +120,11 @@
             <div class="form-group">
               <label for="message">Your Message</label>
               <textarea id="message" name="message" placeholder="Say what's on your mind. I don't bite." required></textarea>
+            </div>
+
+            <div class="form-group" style="display:flex; align-items:flex-start; gap:0.6rem;">
+              <input type="checkbox" id="newsletter" name="newsletter_signup" value="Yes" style="width:auto; margin-top:0.3rem;" />
+              <label for="newsletter" style="margin:0; font-weight:normal; text-transform:none; letter-spacing:normal; font-size:0.92rem;">Also send me a peek into your happy little mess, about once a month.</label>
             </div>
 
             <button type="submit" class="btn btn--red" style="width: 100%;">Send It</button>
@@ -161,6 +166,7 @@
             <li><a href="my-story.html">My Story</a></li>
             <li><a href="books.html">Books</a></li>
             <li><a href="free-gifts.html">Free Gifts</a></li>
+            <li><a href="https://sherrinahansen.substack.com" target="_blank" rel="noopener">Subscribe</a></li>
             <li><a href="chat.html">Chat</a></li>
           </ul>
         </div>
@@ -185,7 +191,23 @@
     }
   </script>
 
-<script src="art.js?v=3"></script></body>
+<script src="art.js?v=4"></script>
+  <script>
+    // If the box is checked, also sign the person up on Substack.
+    // The message itself still goes to Zoho through Web3Forms either way.
+    document.getElementById('contact-form').addEventListener('submit', function () {
+      var box = document.getElementById('newsletter');
+      var email = document.getElementById('email').value;
+      if (box.checked && email) {
+        fetch('https://sherrinahansen.substack.com/api/v1/free?nojs=true', {
+          method: 'POST', mode: 'no-cors', keepalive: true,
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: 'email=' + encodeURIComponent(email)
+        });
+      }
+    });
+  </script>
+</body>
 </html>
 
 
