@@ -763,9 +763,9 @@ section {
 
 .email-form button {
   padding: 0.75rem 1.5rem;
-  background-color: #009E97;
-  color: #3C3C3C;
-  border: 2px solid #009E97;
+  background-color: #E8192C;
+  color: #FFFFFF;
+  border: 2px solid #E8192C;
   font-family: 'Nunito', sans-serif;
   font-size: 0.85rem;
   font-weight: 600;
@@ -782,8 +782,8 @@ section {
 }
 
 .email-signup .promise {
-  font-size: 0.8rem;
-  color: #888;
+  font-size: 0.85rem;
+  color: #FAF6F0;
   letter-spacing: 0.03em;
 }
 
